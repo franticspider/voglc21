@@ -1,6 +1,6 @@
 #voglc21
 
-pronounced "*vogulseetoowon*", is a "very ordinary GL-like" library for graphics. If you've not used it before, then don't: you'll be much better of starting from scratch using openGL. However, if you've got old code which uses the vogl libraries, then this project might help you port it to a modern Linux system like Ubuntu.
+pronounced "*vogulseetoowon*", is a "very ordinary GL-like" library for graphics, based on vogl, a free software library that was available in the 1990s, which I've updated so it compiles on Ubuntu. If you've not used it before, then **don't**: you'll be much better of starting from scratch using openGL. However, if you've got old code which uses the vogl libraries, then this project might help you port it to a modern Linux system like Ubuntu.
 
 ##Installation
 
@@ -63,7 +63,14 @@ I'm running Ubuntu 14.04. Originally I planned to build a .deb package from the 
     3. Run make as root: ``sudo make -f Makefile.gcc`` (NB: you need the sudo because it does something with the hershey fonts
     
 3. **Configure ``make install`` **
+    The original make install didn't copy the header files to a system-level path. So I fixed that too.
+    
+---
+#TODO List:
 
+1. make the hershey libraries work
+2. make the fortran interface work
+3. make the changed Makefile.gcc work via the makefile
 
 
 
