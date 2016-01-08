@@ -2,6 +2,16 @@
 
 pronounced "*vogulseetoowon*", is a "very ordinary GL-like" library for graphics, based on vogl, a free software library that was available in the 1990s, which I've updated so it compiles on Ubuntu. If you've not used it before, then **don't**: you'll be much better of starting from scratch using openGL. However, if you've got old code which uses the vogl libraries, then this project might help you port it to a modern Linux system like Ubuntu.
 
+##Prerequisites
+
+You'll need to have the git software installed on your system. (If you're not sure, you may as well just try to install it - the system will then tell you it it is already installed.) Enter the following commands in a terminal window:
+
+~~~bash
+sudo apt-get update
+sudo apt-get install git
+~~~
+
+
 ##Installation
 
 Open a terminal window in Ubuntu and type the following:
