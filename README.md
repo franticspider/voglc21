@@ -18,7 +18,7 @@ Open a terminal window in Ubuntu and type the following:
 
 ~~~bash
 git clone https://github.com/franticspider/voglc21
-cd volgc21
+cd volgc
 make -f Makefile.gcc
 sudo make -f Makefile.gcc install
 ~~~
@@ -28,6 +28,14 @@ To test the installation, we have included an example project that uses vogl. To
 cd examples/robofish
 make
 ./rfish
+
+This runs a simulated fish shoal, as described in the paper 
+
+**Recovering Hidden Swarm Parameters Using a Simulated Robofish.**
+Richard Coates and Simon Hickinbotham.
+*ECAL 2011, Paris, France, August 2011. LNCS. Springer, 2011, Pages 153-160*
+
+
 ~~~
 
 ..and you should see a working visualisation. 
