@@ -18,7 +18,7 @@ Open a terminal window in Ubuntu and type the following:
 
 ~~~bash
 git clone https://github.com/franticspider/voglc21
-cd volgc
+cd volgc21/vogl
 make -f Makefile.gcc
 sudo make -f Makefile.gcc install
 ~~~
