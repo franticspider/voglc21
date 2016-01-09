@@ -31,16 +31,13 @@ make
 ./rfish
 ~~~
 
-This runs a simulated fish shoal, as described in the paper 
+..and you should see a working visualisation of a simulated fish shoal, as described in the paper 
+"Recovering Hidden Swarm Parameters Using a Simulated Robofish."
+by Richard Coates and Simon Hickinbotham.
+*(ECAL 2011, Paris, France, August 2011. LNCS. Springer, 2011, Pages 153-160)*
 
-**Recovering Hidden Swarm Parameters Using a Simulated Robofish.**
-Richard Coates and Simon Hickinbotham.
-*ECAL 2011, Paris, France, August 2011. LNCS. Springer, 2011, Pages 153-160*
 
 
-~~~
-
-..and you should see a working visualisation. 
 
 
 
