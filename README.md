@@ -22,12 +22,14 @@ cd volgc21/vogl
 make -f Makefile.gcc
 sudo make -f Makefile.gcc install
 ~~~
+
 To test the installation, we have included an example project that uses vogl. To try it, do:
 
 ~~~bash 
 cd examples/robofish
 make
 ./rfish
+~~~
 
 This runs a simulated fish shoal, as described in the paper 
 
